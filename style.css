@@ -5,14 +5,14 @@ body {
   font-family: Lato, sans-serif;
 }
 ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 li {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .header {
   width: 500px;
@@ -27,17 +27,15 @@ input,button{
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
-
 }
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 .task-label,
 .task-input {
@@ -50,7 +48,7 @@ input,button{
 }
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -96,7 +94,6 @@ h3 {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,14 +131,14 @@ h3 {
 
 /* Edit Task */
 .task-item .task-input {
-  display:none
+  display: none
 }
 
 .task-item.edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-item.edit-mode .task-label {
-  display:none;
+  display: none;
 }
